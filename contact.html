@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real estate website</title>
+    <!-- css-link -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/cecd2c945d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <script src="https://kit.fontawesome.com/cecd2c945d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="css/lightcase.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/odometer.min.css">
+    <link rel="stylesheet" href="css/style.css">
+     <!-- css-link -->
+</head>
+<body>
+ <!-- header start -->
+  <header  id="header">
+    <a href="#" class="logo">Prime-Properties</a>
+    <ul class="navlist">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Service</a></li>
+        <li><a href="property.html">Properties</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav__btns">
+      <!-- Theme change button -->
+      <i class='fas fa-moon change-theme' id="theme-button"></i>
+      <div class="fas fa-bars" id="menu-icon"></div>
+  </div>
+    
+  </header>
+
+ <!-- header end -->
+
+
+<div class="ltn__utilize-overlay"></div>
+
+<!-- BREADCRUMB AREA START -->
+<div class="breadcrumb-area text-left bg-overlay-white-30 bg-image "  data-bs-bg="img/14.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb-inner">
+                    <h1 class="page-title">Contact Us</h1>
+                    <div class="breadcrumb-list">
+                        <ul>
+                            <li><a href="index.html"><span class="span-color"><i class="fas fa-home"></i></span> Home</a></li>
+                            <li> Contact</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- BREADCRUMB AREA END -->
+<section class="contact-wrap content-area">
+    <div class="container">
+    <div class="row justify-content-center pb-75">
+    <div class="col-lg-4 col-md-6">
+    <div class="contact-item">
+    <span class="contact-icon">
+        <i class="fa-solid fa-location-dot"></i>
+    </span>
+    <div class="contact-info">
+    <h3>Our Location</h3>
+    <p>2767 Sunrise Street, 10th Avenue, New York, USA
+    </p>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="contact-item">
+    <span class="contact-icon">
+        <i class="fa-solid fa-envelope"></i>
+    </span>
+    <div class="contact-info">
+    <h3>Email Us</h3>
+    <a href="">Antimuse@gmail.com</a>
+    <a href="">Antimuse@gmail.com</a>
+    </div>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-6">
+    <div class="contact-item">
+    <span class="contact-icon">
+        <i class="fa-solid fa-phone"></i>
+    </span>
+    <div class="contact-info">
+    <h3>Call us</h3>
+    <a href="tel:88098787868">+44 587 154765</a>
+    <a href="tel:88098787869">+55 576 234532</a>
+    </div>
+    </div>
+    </div>
+    </div>
+    </div>
+     
+    <!-- CONTACT MESSAGE AREA START -->
+    <div class="ltn__contact-message-area mb-120 mb--100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ltn__form-box contact-form-box box-shadow white-bg">
+                        <h4 class="title-2">Get A Quote</h4>
+                        <form id="contact-form" action="mail.php" method="post">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="input-item input-item-name ltn__custom-icon">
+                                        <input type="text" name="name" placeholder="Enter your name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item input-item-email ltn__custom-icon">
+                                        <input type="email" name="email" placeholder="Enter email address">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item">
+                                        <select class="nice-select">
+                                            <option>Select Service Type</option>
+                                            <option>Property Management </option>
+                                            <option>Mortgage Service </option>
+                                            <option>Consulting Service</option>
+                                            <option>Home Buying</option>
+                                            <option>Home Selling</option>
+                                            <option>Escrow Services</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-item input-item-phone ltn__custom-icon">
+                                        <input type="text" name="phone" placeholder="Enter phone number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="input-item input-item-textarea ltn__custom-icon">
+                                <textarea name="message" placeholder="Enter message"></textarea>
+                            </div>
+                            <p><label class="input-info-save mb-0"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label></p>
+                            <div class="col-md-12 text-center">
+                                <button type="submit" class="btn style1 w-100 d-block">Send Message </button>
+                                <div id="msgSubmit" class="h3 text-center hidden"></div>
+                                <div class="clearfix"></div>
+                                </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CONTACT MESSAGE AREA END -->
+    </section>
+    
+<!-- Footer start -->
+<footer class="main-footer-3">
+    <div class="lines">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <div class="subscribe-newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <h3>Subscribe Newsletter</h3>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="Subscribe-box">
+                        <div class="newsletter-content-wrap">
+                            <form class="newsletter-form d-flex" action="#">
+                                <input class="form-control" type="email" id="email" placeholder="Email Address...">
+                                <button class="btn btn-theme" type="submit"><i class="fa fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="footer-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <a href="#" class="logo">Prime-Properties</a>
+                        <div class="s-border"></div>
+                        <div class="m-border"></div>
+                        <div class="text">
+                            <P class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in pulvinar neque. Nulla finibus lobortis pulvinar. Donec a consectetur nulla. Nulla posuere sapien vitae lectus suscipit, et pulvinar nisi tincidunt. Aliquam erat.</P>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                    <div class="footer-item clearfix">
+                        <h4>
+                            Contact Info
+                        </h4>
+                        <div class="s-border"></div>
+                        <div class="m-border"></div>
+                        <ul class="contact-info">
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>Address: 44 New Baba Street,
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i><a href="#">info@antimuse.com</a>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-phone"></i><a href="#">+0473 8583 783</a>
+                            </li>
+                            <li class="mb-0">
+                                <i class="fa-solid fa-fax"></i>+0473 8583 783
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-6 col-sm-6">
+                    <div class="footer-item">
+                        <h4>
+                            Useful Links
+                        </h4>
+                        <div class="s-border"></div>
+                        <div class="m-border"></div>
+                        <ul class="links">
+                            <li>
+                                <a href="#"><i class="fa fa-angle-right"></i>Home</a>
+                            </li>
+                            <li>
+                                <a href="about.html"><i class="fa fa-angle-right"></i>About Us</a>
+                            </li>
+                            <li>
+                                <a href="service.html"><i class="fa fa-angle-right"></i>Services</a>
+                            </li>
+                            
+                            <li>
+                                <a href="team.html"><i class="fa fa-angle-right"></i>Our Agents</a>
+                            </li>
+                            <li>
+                                <a href="contact.html"><i class="fa fa-angle-right"></i>Contact Us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                    <div class="footer-item fi-2 clearfix">
+                        <div class="footer-gallery clearfix">
+                            <h4>Our Gallery</h4>
+                            <div class="s-border"></div>
+                            <div class="m-border"></div>
+                            <ul>
+                                <li>
+                                    <img src="img/small-properties-1.jpg" alt="small-img">
+                                </li>
+                                <li>
+                                    <img src="img/small-properties-2.jpg" alt="small-img">
+                                </li>
+                                <li>
+                                    <img src="img/small-properties-3.jpg" alt="small-img">
+                                </li>
+                                <li>
+                                    <img src="img/small-properties-4.jpg" alt="small-img">
+                                </li>
+                                <li>
+                                    <img src="img/small-properties-5.jpg" alt="small-img">
+                                </li>
+                                <li>
+                                    <img src="img/small-properties-6.jpg" alt="small-img">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sub-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <p class="copy">© 2022 <a href="#">Blaqcoder.</a> All Rights Reserved.</p>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="social-media clearfix">
+                        <div class="social-list">
+                            <div class="icon facebook">
+                                <div class="tooltip">Facebook</div>
+                                <span><i class="fa fa-facebook"></i></span>
+                            </div>
+                            <div class="icon twitter">
+                                <div class="tooltip">Twitter</div>
+                                <span><i class="fa fa-twitter"></i></span>
+                            </div>
+                            <div class="icon instagram">
+                                <div class="tooltip">Instagram</div>
+                                <span><i class="fa fa-instagram"></i></span>
+                            </div>
+                            <div class="icon youtube mr-0">
+                                <div class="tooltip">Youtube</div>
+                                <span><i class="fa fa-youtube"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+
+ <!-- js-link -->
+ <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+ <script src="js/odometer.min.js"></script>
+ <script src="js/isotope.js"></script>
+ <script src="js/lightcase.js"></script>
+ <script src="js/jquery.nice-select.min.js"></script>
+ <script src="js/wow.js"></script>
+ <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+ <script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+ <script src="js/app.js"></script>
+</body>
+</html>
